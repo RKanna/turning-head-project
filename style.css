@@ -415,3 +415,20 @@ cursor: pointer;
 .formSubmit:hover {
     background-color: black;
 }
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ba5a3a;
+    width: 100%;
+    height: 5rem;
+}
+footer h3 {
+    font-family: avene-lt-35;
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+}
+footer a {
+    color: white;
+}
