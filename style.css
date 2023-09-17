@@ -93,3 +93,29 @@ nav {
 .nav-links .defaultSelection {
     color: var(--clr-mainTheme);
 }
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+.img-containers {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    justify-content: space-around;
+    overflow: hidden;
+    position: relative;
+}
+.title-main {
+    position: absolute;
+    width: 36%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    top: 44rem;
+    left: 27.1rem;
+}
+h1 {
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif;
+}
